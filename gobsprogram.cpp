@@ -6,9 +6,12 @@ using namespace std;
 int main() 
 {
   cout << "Gob's Program:  Y/N?" << endl << "? ";
-  getchar();
-  while(1)
+  char choice = getchar();
+  if (choice == 'Y')
   {
-    cout << "Penus  ";
+    while(1)
+    {
+      cout << "Penus  ";
+    }
   }
 }
