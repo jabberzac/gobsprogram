@@ -14,5 +14,5 @@ $ ./program
 ```bash
 $ ./gobsprogram.py
 OR
-$ python gorbsprogram.py
+$ python gobsprogram.py
 ```
