@@ -1,6 +1,5 @@
-do {$response = Read-Host "Gob's Program Y/N?"}
-until ($response -eq "Y")
-if ($response -eq "Y") {
-do {Write-Host "Penus "}
-until (0)
-}
+$choice = Read-Host "Gob's Program: Y/N?"
+
+Do {
+  Write-Host -NoNewline "Penus "
+} while ( $choice -eq "y" )
