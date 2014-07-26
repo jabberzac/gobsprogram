@@ -16,3 +16,5 @@ $ ./gobsprogram.py
 OR
 $ python gobsprogram.py
 ```
+###VBScript
+double click it while using windows
