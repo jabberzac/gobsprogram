@@ -1,6 +1,7 @@
 #!/bin/bash
 
-read -p "Gob's Program:  Y/N?"  CHOICE
+echo "Gob's Program:  Y/N?"
+read -p "?"  CHOICE
 
 if [ $CHOICE = "y" ] ; then
     while true; do
