@@ -36,3 +36,9 @@ $ ./gobsprogram.rb
 OR
 $ ruby gobsprogram.rb
 ```
+
+###Java
+```bash
+$ javac GobsProgram.java
+$ java GobsProgram
+```
