@@ -18,3 +18,8 @@ $ python gobsprogram.py
 ```
 ###VBScript
 double click it while using windows
+
+###Perl
+```bash
+$ perl gobsprogram.pl
+```
