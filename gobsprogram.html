@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Gob's Program</title>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<style type="text/css">
+	body {
+		background-color:black;
+	}
+	p, span, .inputkeys, .penusArea {
+	color: green;
+	font-family: "Lucida Console";
+	display: inline;
+	}
+	.input {
+		width:500px;
+	}
+	.blink {
+	height: 15px;
+	width: 10px;
+	background-color: green;
+	display: inline;
+ 	animation: blink 1s steps(5, start) infinite;
+ 	-webkit-animation: blink 1s steps(5, start) infinite;
+	}
+	@keyframes blink {
+	  to { visibility: hidden; }
+	}
+	@-webkit-keyframes blink {
+	  to { visibility: hidden; }
+	}
+	</style>
+
+</head>
+<body>
+<p>Gob's Program: Y/N?</p>
+<div class="input">
+<div style="float:left; display:inline;"><span class="q">?</span></div>
+<div class="inputkeys"></div>
+<div class="blink"><span style="color:green; visibility:hidden">Y</span></div>
+</div>
+<div class="penusArea"></div>
+<script type="text/javascript">
+	var yPressed = 0;
+$(document).keypress(function(eo) {
+
+	if (yPressed == 0) {
+	var char = String.fromCharCode(eo.which);
+
+	if (char == "Y") {
+
+		$(".inputkeys").text($(".inputkeys").text() + char);
+			yPressed = 1;
+			window.setInterval(Penus, 10)
+	}
+	else if (char == "N") {
+
+		$(".inputkeys").text($(".inputkeys").text() + char);
+		$(".penusArea").text("...what are you even doing?");
+	}
+}
+	
+});
+/* never thought i'd make this function */
+function Penus() {
+	$(".penusArea").append("Penus ");
+}
+</script>
+</body>
+</html>
