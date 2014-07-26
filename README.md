@@ -1,5 +1,8 @@
-gobsprogram
+Gob's Program:
 ===========
+
+![Gob's Program](http://i.imgur.com/6IGBqG7.png =250x)
+
 # Resources
 * [Gob's Program Specification](https://github.com/jabberzac/gobsprogram/wiki/Gob's-Program-Specification)
 * [Scene for Reference](http://www.youtube.com/watch?v=JbnjusltDHk)
