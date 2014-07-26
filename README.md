@@ -1,8 +1,9 @@
 gobsprogram
 ===========
-[Gob's Program Specification](https://github.com/jabberzac/gobsprogram/wiki/Gob's-Program-Specification)
-[Scene for Reference](http://www.youtube.com/watch?v=JbnjusltDHk)
-[Scene Screen Captures](http://imgur.com/a/aGu4j)
+# Resources
+* [Gob's Program Specification](https://github.com/jabberzac/gobsprogram/wiki/Gob's-Program-Specification)
+* [Scene for Reference](http://www.youtube.com/watch?v=JbnjusltDHk)
+* [Scene Screen Captures](http://imgur.com/a/aGu4j)
 
 ## How I run?????
 ###C++
