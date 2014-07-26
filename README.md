@@ -25,5 +25,14 @@ double click it while using windows
 
 ###Perl
 ```bash
+$ ./gobsprogram.pl
+OR
 $ perl gobsprogram.pl
+```
+
+###Ruby
+```bash
+$ ./gobsprogram.rb
+OR
+$ ruby gobsprogram.rb
 ```
