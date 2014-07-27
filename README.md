@@ -47,7 +47,9 @@ $ java GobsProgram
 ```posh
 C:\> Set-ExecutionPolicy Unrestricted
 C:\> .\gobsprogram.ps1
+```
 
 ###Golang
 ```bash
 $ go run gobsprogram.go
+```
