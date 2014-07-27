@@ -18,7 +18,7 @@ func main() {
 				fmt.Print("Penus  ")
 				prints++
 			} else {
-				fmt.Println("Penus  ")
+				fmt.Println("Penus")
 				prints = 0
 			}
 		}
