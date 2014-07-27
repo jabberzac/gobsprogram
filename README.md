@@ -42,3 +42,8 @@ $ ruby gobsprogram.rb
 $ javac GobsProgram.java
 $ java GobsProgram
 ```
+
+###PowerShell (lol)
+```posh
+C:\> Set-ExecutionPolicy Unrestricted
+C:\> .\gobsprogram.ps1
