@@ -1,3 +1,11 @@
+/*
+ * To compile and run:
+ * apt-get install mono-mcs
+ * mcs gobsprogram.cs -out:gobsprogram.exe
+ * mono gobsprogram.exe
+ */
+
+
 using System;
 using System.Threading;
 namespace gobsprogram
