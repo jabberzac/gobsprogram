@@ -2,7 +2,7 @@ Gob's Program:
 ===========
 ![Gob's Program](http://i.imgur.com/nJK1t7j.png)
 
-Gob's Program serves as a demonstration of various important concepts in programming such as text formatting, processing user input and infinite loops. It has been implemented in as many languages as possible to serve as a useful resource for beginners and advances programmers alike.
+Gob's Program serves as a demonstration of various important concepts in programming such as text formatting, processing user input and infinite loops. It has been implemented in as many languages as possible to serve as a useful resource for beginners and advanced programmers alike.
 
 For information on contributing, please refer to the [Gob's Program Wiki](https://github.com/jabberzac/gobsprogram/wiki).
 
