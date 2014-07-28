@@ -1,4 +1,5 @@
 @echo off
+color 0A
 set p="Penus  "
 setlocal EnableDelayedExpansion
 rem Default choice output does not meet program requirements
@@ -6,7 +7,7 @@ echo Gob's Program:  Y/N?
 echo | set /p="? "
 choice /M "" >NUL
 if %ERRORLEVEL% EQU 1 (
-	echo.
+	echo Y
 	rem Fetch console width from "con"
 	for /F "usebackq tokens=2* delims=: " %%W in (`mode con ^| findstr Columns`) do set CONSOLE_WIDTH=%%W
 	:loop
