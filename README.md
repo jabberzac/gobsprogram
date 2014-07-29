@@ -43,8 +43,8 @@ $ java GobsProgram
 
 ##PowerShell (lol)
 ```posh
-C:\> Set-ExecutionPolicy Unrestricted
-C:\> .\gobsprogram.ps1
+PS C:\> Set-ExecutionPolicy Unrestricted
+PS C:\> .\gobsprogram.ps1
 ```
 
 ##Golang
