@@ -5,7 +5,7 @@ BEGIN {
 }
 /^[yY]/ {
   while (1) {
-    printf "Penus  "
+    print "Penus  Penus  Penus  Penus  Penus  Penus"
   }
 }
 /^[nN]/ {
