@@ -51,3 +51,8 @@ PS C:\> .\gobsprogram.ps1
 ```bash
 $ go run gobsprogram.go
 ```
+
+##PHP
+```bash
+$ php gobsprogram.php
+```
