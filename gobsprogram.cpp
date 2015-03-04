@@ -1,17 +1,18 @@
-#include <iostream>
 #include <stdio.h>
+#include <iostream>
 
-using namespace std;
+int main() {
+    std::cout << "\033[1;32mGob's Program:  Y/N?" << std::endl << "? ";
 
-int main() 
-{
-  cout << "Gob's Program:  Y/N?" << endl << "? ";
-  char choice = getchar();
-  if (choice == 'Y')
-  {
-    while(1)
-    {
-      cout << "Penus  ";
+    char choice = getchar();
+    char caseChoice = tolower(choice);
+
+    if (caseChoice == 'y') {
+        while (1) {
+            std::cout << "Penus  " << std::flush;
+            usleep(10000);
+        }
     }
-  }
+
+    return 0;
 }
