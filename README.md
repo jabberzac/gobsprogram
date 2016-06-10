@@ -56,3 +56,9 @@ $ go run gobsprogram.go
 ```bash
 $ php gobsprogram.php
 ```
+
+###Scala
+```bash
+scalac gobsprogram.scala
+scala GobsProgram
+```
