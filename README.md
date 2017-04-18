@@ -62,3 +62,9 @@ $ php gobsprogram.php
 scalac gobsprogram.scala
 scala GobsProgram
 ```
+
+###Rust
+```bash
+rustc gobsprogram.rs
+./gobsprogram
+```
