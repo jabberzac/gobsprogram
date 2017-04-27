@@ -7,63 +7,66 @@ Gob's Program serves as a demonstration of various important concepts in program
 For information on contributing, please refer to the [Gob's Program Wiki](https://github.com/jabberzac/gobsprogram/wiki).
 
 # How I run?????
-##C++
+
+## C++
 ```bash
 $ g++ gobsprogram.cpp -o program
 $ ./program
 ```
-##Python
+
+## Python
 ```bash
 $ ./gobsprogram.py
 OR
 $ python gobsprogram.py
 ```
-##VBScript
+
+## VBScript
 double click it while using windows
 
-##Perl
+## Perl
 ```bash
 $ ./gobsprogram.pl
 OR
 $ perl gobsprogram.pl
 ```
 
-##Ruby
+## Ruby
 ```bash
 $ ./gobsprogram.rb
 OR
 $ ruby gobsprogram.rb
 ```
 
-##Java
+## Java
 ```bash
 $ javac GobsProgram.java
 $ java GobsProgram
 ```
 
-##PowerShell (lol)
+## PowerShell (lol)
 ```posh
 PS C:\> Set-ExecutionPolicy Unrestricted
 PS C:\> .\gobsprogram.ps1
 ```
 
-##Golang
+## Golang
 ```bash
 $ go run gobsprogram.go
 ```
 
-##PHP
+## PHP
 ```bash
 $ php gobsprogram.php
 ```
 
-###Scala
+## Scala
 ```bash
 scalac gobsprogram.scala
 scala GobsProgram
 ```
 
-###Rust
+## Rust
 ```bash
 rustc gobsprogram.rs
 ./gobsprogram
