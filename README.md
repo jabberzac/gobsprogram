@@ -27,7 +27,9 @@ double click it while using windows
 ## Perl
 ```bash
 $ ./gobsprogram.pl
+```
 OR
+```bash
 $ perl gobsprogram.pl
 ```
 
@@ -45,9 +47,21 @@ $ java GobsProgram
 ```
 
 ## PowerShell (lol)
-```posh
-PS C:\> Set-ExecutionPolicy Unrestricted
-PS C:\> .\gobsprogram.ps1
+PowerShell 5:
+```
+PS C:\Users\User> Set-ExecutionPolicy -Scope Process Unrestricted
+PS C:\Users\User> .\gobsprogram.ps1
+```
+PowerShell 6 (Windows):
+```
+PS C:\Users\User> Set-ExecutionPolicy -Scope Process Unrestricted
+PS C:\Users\User> Unblock-File gobsprogram-6.ps1
+PS C:\Users\User> .\gobsprogram-6.ps1
+```
+PowerShell 6 (not Windows) (lol harder):
+```bash
+$ pwsh
+PS /home/user> .\gobsprogram-6.ps1
 ```
 
 ## Golang
