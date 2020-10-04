@@ -46,6 +46,12 @@ $ javac GobsProgram.java
 $ java GobsProgram
 ```
 
+## Emojicode
+```bash
+$ emojicodec gobsprogram.🍇
+$ ./gobsprogram
+```
+
 ## PowerShell (lol)
 PowerShell 5:
 ```
