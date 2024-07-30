@@ -8,6 +8,13 @@ For information on contributing, please refer to the [Gob's Program Wiki](https:
 
 # How I run?????
 
+## BBC BASIC
+Gob's Program Project 10th Anniversary Special Edition!
+
+[Run Gob's Program interactively on a web-site page!](https://bbcmic.ro/#%7B%22v%22%3A1%2C%22program%22%3A%2210%20REM%20GOB'S%20BBC%20PROGRAM%5Cn20%20PRINT%20%5C%22Gob's%20Program%3A%20%20Y%2FN%3F%5C%22%5Cn30%20INPUT%20%5C%22%3F%20%5C%22I%24%5Cn40%20IF%20LEFT%24%28I%24%2C1%29%3C%3E%5C%22Y%5C%22%20THEN%20GOTO%20100%5Cn50%20PRINT%20%5C%22Penus%5C%22%3B%5Cn60%20FOR%20PC%20%3D%201%20TO%205%5Cn70%20PRINT%20%5C%22%20%20Penus%5C%22%3B%5Cn80%20NEXT%20PC%5Cn90%20GOTO%2050%5Cn100%20END%5Cn%22%7D)
+
+Or type it into your BBC Micro at home if you want, do whatever, I'm not your mum.
+
 ## C++
 ```bash
 $ g++ gobsprogram.cpp -o program
